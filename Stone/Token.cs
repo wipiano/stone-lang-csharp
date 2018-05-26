@@ -22,7 +22,6 @@
 
         public virtual string GetText() => string.Empty;
 
-
         private sealed class EOFToken : Token
         {
             public EOFToken()
